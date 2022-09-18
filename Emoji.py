@@ -1,4 +1,6 @@
+# Use this method to send a > message.
 message = input("> ")
+# Splits a string into words.
 words = message.split( " ")
 emojis = {
    "smiling" : "😀",
@@ -16,6 +18,7 @@ emojis = {
    "exhaling" : "😮‍💨",
    "screaming" : "😱",
    "vomating" : "🤮"
+# Print emojis for each word.
 }
 outcome = " "
 for word in words:
